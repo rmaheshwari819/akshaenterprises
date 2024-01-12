@@ -6,8 +6,6 @@ import paperMills from '../../assets/paper mills.jpg';
 import Pharma from '../../assets/pharmaceutikal.jpg';
 import sugarMills from '../../assets/sugar mills.jpg';
 import OilandGas from '../../assets/oilandgas.jpg';
-import AutoMobile from '../../assets/automobile.jpg';
-import SuperMarket from '../../assets/supermarkets.jpg';
 import ChemicalIndustries from '../../assets/chemicalsIndustries.jpg';
 import CoolingAndHeating from '../../assets/cooling & heating industries.jpg';
 import 'slick-carousel/slick/slick.css';
