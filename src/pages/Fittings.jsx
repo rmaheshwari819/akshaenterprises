@@ -6,15 +6,15 @@ const Fittings = () => {
   const post = {
     title: 'Fittings',
     metaDescription:
-      'Parmeshwar Steel - Manufacturer of Stainless Steel Pipes, Carbon Steel Pipe Fittings & Stainless Steel Flanges from Mumbai, Maharashtra, India.',
+      'Aksha Enterprises - Manufacturer of Stainless Steel Pipes, Carbon Steel Pipe Fittings & Stainless Steel Flanges from Mumbai, Maharashtra, India.',
     imageSection: FittingsImage,
     h1: 'Fittings',
     heading1Main:
-      'Fittings Manufacturer & Supplier in India - Parmeshwar Steel Center',
+      'Fittings Manufacturer & Supplier in India - Aksha Enterprises',
 
     aboutSection: {
       paragraph1:
-        'Parmeshwar steel center is a prominent Forged Fittings Manufacturer in India, offering superior quality products with an unwavering commitment to excellence. Our state of the art infrastructure enables us to produce and supply Forged Fittings consistently. With experienced engineers, customer centric operations, we are one of the largest Forged Fittings Manufacturer in the industry. We also offer custom-size Forged Fittings to meet our customers industrial needs at a reasonable price.',
+        'Aksha Enterprises is a prominent Forged Fittings Manufacturer in India, offering superior quality products with an unwavering commitment to excellence. Our state of the art infrastructure enables us to produce and supply Forged Fittings consistently. With experienced engineers, customer centric operations, we are one of the largest Forged Fittings Manufacturer in the industry. We also offer custom-size Forged Fittings to meet our customers industrial needs at a reasonable price.',
     },
 
     productTables: {

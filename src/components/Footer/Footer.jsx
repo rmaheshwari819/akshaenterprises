@@ -3,7 +3,7 @@ import { SlLocationPin } from 'react-icons/sl';
 import { FiMail } from 'react-icons/fi';
 import { HiOutlinePhone } from 'react-icons/hi';
 import { Link } from 'react-router-dom';
-import Logo from '../../assets/gbl/gblcircle.png';
+import Logo from '../../akshalogobg.png';
 import './Footer.css';
 
 const Footer = () => {
@@ -24,7 +24,7 @@ const Footer = () => {
                   :-
                 </h6>
                 <p className="ms-4 px-1 ">
-                  Shop No. 16, Pratap Pura Market, Zawar Mines - 313901, Udaipur (Raj.)
+                  Naya Bazar ( New Market), Zawar Mines - 313901, Udaipur (Raj.)
                 </p>
               </div>
               <div className="">
@@ -33,7 +33,7 @@ const Footer = () => {
                   :-
                 </h6>
                 <p className="ms-4 px-1 ">
-                  32, Nakoda Complex Hiran Magri Sector 4, Udaipur (Raj.) - 313002
+                  1D, Mahavir Nagar, Sector 14, Hiran Magri, Udaipur, Gordhan Vilas Rural, Rajasthan 313001
                 </p>
               </div>
 
@@ -42,7 +42,7 @@ const Footer = () => {
                   <li>
                     <Link to="tel:9869037711" className="link-tagfooter">
                       <HiOutlinePhone size={20} className="me-1" /> +91
-                      9784098800 (Rohit Maheshwari)
+                      9413287742 (Sachin Qureshi)
                     </Link>
                   </li>
                 </ul>
@@ -54,7 +54,7 @@ const Footer = () => {
                       to="mailto:eakshaenterprises@gmail.com"
                       className="link-tagfooter"
                     >
-                      <FiMail size={20} className="me-1" /> eakshaenterprises1@gmail.com
+                      <FiMail size={20} className="me-1" /> sachin@akshaenterprises.com
                     </Link>
                   </li>
                 </ul>
@@ -65,29 +65,29 @@ const Footer = () => {
             <div className="px-2 ">
               <h4 className="pb-4">Products</h4>
               <ul className="list-unstyled">
-                <Link to="/fittings" className="link-tagfooter">
-                  <li className="">Fittings</li>
+                <Link to="/" className="link-tagfooter">
+                  <li className="">Civil Construction</li>
                 </Link>
-                <Link to="/pipes" className="link-tagfooter">
-                  <li className="mt-lg-3 mt-md-3 mt-3">Pipes</li>
+                <Link to="/" className="link-tagfooter">
+                  <li className="mt-lg-3 mt-md-3 mt-3">Fabrication & Erection</li>
                 </Link>
-                <Link to="/flanges" className="link-tagfooter">
-                  <li className="mt-lg-3 mt-md-3 mt-3">Flanges</li>
+                <Link to="/" className="link-tagfooter">
+                  <li className="mt-lg-3 mt-md-3 mt-3">Man Power Supply</li>
                 </Link>
-                <Link to="/bold-fastners" className="link-tagfooter">
-                  <li className="mt-lg-3 mt-md-3 mt-3">Bold / Fastners</li>
+                <Link to="/" className="link-tagfooter">
+                  <li className="mt-lg-3 mt-md-3 mt-3">Earthmovers Services</li>
                 </Link>
-                <Link to="/angle-channels" className="link-tagfooter">
-                  <li className="mt-lg-3 mt-md-3 mt-3">Angle / Channels</li>
+                <Link to="/" className="link-tagfooter">
+                  <li className="mt-lg-3 mt-md-3 mt-3">Crane Supply</li>
                 </Link>
-                <Link to="/steets-plates" className="link-tagfooter">
-                  <li className="mt-lg-3 mt-md-3 mt-3">Steets / PLates</li>
+                <Link to="/" className="link-tagfooter">
+                  <li className="mt-lg-3 mt-md-3 mt-3">Electrical Works</li>
                 </Link>
-                <Link to="/wires-bars" className="link-tagfooter">
-                  <li className="mt-lg-3 mt-md-3 mt-3">Bars / Wires</li>
+                <Link to="/" className="link-tagfooter">
+                  <li className="mt-lg-3 mt-md-3 mt-3">Transportation</li>
                 </Link>
-                <Link to="/percentage-alloys" className="link-tagfooter">
-                  <li className="mt-lg-3 mt-md-3 mt-3">Percentage Alloys</li>
+                <Link to="/" className="link-tagfooter">
+                  <li className="mt-lg-3 mt-md-3 mt-3">Operation & Maintenence</li>
                 </Link>
               </ul>
             </div>
@@ -123,7 +123,7 @@ const Footer = () => {
             <div className="px-2">
               <h4 className="pb-4">Find Us On Google</h4>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3773.3503407141106!2d72.82783300000001!3d18.960129!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cfab7535d49d%3A0x90f60502002b64c3!2sParmeshwar%20Steel%20Centre!5e0!3m2!1sen!2sus!4v1689566414171!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3629.4656405577025!2d73.69311947536065!3d24.53856607814081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967ef0e9c8db599%3A0xb23975bc93984432!2sAksha%20Enterprises!5e0!3m2!1sen!2sin!4v1705042006609!5m2!1sen!2sin"
                 style={{ width: '100%', height: '250px' }}
                 allowfullscreen=""
                 loading="lazy"
@@ -136,7 +136,7 @@ const Footer = () => {
       </div>
       <div className="">
         <p className="my-auto parafotter py-3 ">
-          &copy; {new Date().getFullYear()} Global Enterprises. All rights
+          &copy; {new Date().getFullYear()} Aksha Enterprises. All rights
           reserved.
         </p>
       </div>

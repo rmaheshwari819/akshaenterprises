@@ -1,5 +1,5 @@
 .borderMain {
-  background-color: #b2b2b2;
+  background-color: #fcfdff;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -23,8 +23,8 @@
 }
 
 .navbarlogoherer {
-  width: 250px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
 }
 .nav-menu {
   display: flex;
@@ -113,7 +113,7 @@
 }
 @media screen and (min-width: 768px) {
   .navbarlogoherer {
-    width: 300px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
   }
 }

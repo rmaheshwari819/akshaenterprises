@@ -6,7 +6,7 @@ const AngleChannels = () => {
   const post = {
     title: 'Angle / Channels',
     metaDescription:
-      'Parmeshwar Steel - Manufacturer of Stainless Steel Pipes, Carbon Steel Pipe Fittings & Stainless Steel Flanges from Mumbai, Maharashtra, India.',
+      'Aksha Enterprises - Manufacturer of Stainless Steel Pipes, Carbon Steel Pipe Fittings & Stainless Steel Flanges from Mumbai, Maharashtra, India.',
     imageSection: AngleImage,
     h1: 'Angle / Channels',
     aboutSection: {

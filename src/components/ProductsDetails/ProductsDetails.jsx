@@ -29,10 +29,10 @@ const ProductsDetails = (props) => {
   return (
     <Layout>
       <Helmet>
-        <title>{props.title} - Parmeshwar Steel Center</title>
+        <title>{props.title} - Aksha Enterprises</title>
         <meta
           name="description"
-          content="Parmeshwar Steel - Manufacturer of Stainless Steel Pipes, Carbon Steel Pipe Fittings & Stainless Steel Flanges from Mumbai, Maharashtra, India."
+          content="Aksha Enterprises - Manufacturer of Stainless Steel Pipes, Carbon Steel Pipe Fittings & Stainless Steel Flanges from Mumbai, Maharashtra, India."
         />
         <meta
           name="keywords"

@@ -6,7 +6,7 @@ const BarsWires = () => {
   const post = {
     title: 'Bars / Wires',
     metaDescription:
-      'Parmeshwar Steel - Manufacturer of Stainless Steel Pipes, Carbon Steel Pipe Fittings & Stainless Steel Flanges from Mumbai, Maharashtra, India.',
+      'Aksha Enterprises - Manufacturer of Stainless Steel Pipes, Carbon Steel Pipe Fittings & Stainless Steel Flanges from Mumbai, Maharashtra, India.',
     imageSection: BarsImage,
     h1: 'Bars / Wires',
     aboutSection: {},

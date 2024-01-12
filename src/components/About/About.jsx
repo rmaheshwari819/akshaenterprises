@@ -61,28 +61,20 @@ const About = () => {
                   className="mt-lg-4 mt-3"
                   style={{ fontSize: '18px', textAlign: 'justify' }}
                 >
-                  We, Global Enterprises founded in 2023 by our visionary
-                  entrepreneurs. At Global Enterprises we pride ourselves on being a comprehensive 
-                  solution provider in the realm of Civil Construction & Renovation, 
-                  Fabrication & Painting, Operation & Maintenance, Manpower Supply, 
-                  Earthmover Services, Crane Supply, and Electrical Works. 
-                  With a commitment to excellence and a wealth of experience, 
-                  we offer a diverse range of services to meet the evolving needs of our clients.
+                  The Company founded in 2007 by Mr. Kamruddin Qureshi. Over these years, the company has earned a reputation that has a unique combination of quality,value, trust and reliability.
                 </motion.p>
                 <motion.p
                   variants={variants}
                   className="mt-lg-4 mt-3"
                   style={{ fontSize: '18px', textAlign: 'justify' }}
                 >
-                  At Global Enterprises, we prioritize client satisfaction, safety, 
-                  and quality in every project we undertake. Our commitment to excellence 
-                  has earned us a reputation as a trusted partner in the construction and 
-                  related industries. Whether you are embarking on a new project or seeking 
-                  reliable maintenance services, Global Enterprises is here to turn your 
-                  vision into reality.
-                  Contact us today to discuss how we can contribute to the success of your projects 
-                  and operations. Feel free to customize this description based on specific details 
-                  about your company, such as your values, unique offerings, and notable projects.
+                  To Provide Quality Services that exceeds the expectation of our esteemed Customers.
+                  We believe in treating our customers with respect and faith We grow though creativity, 
+                  Invention and innovation. We integrate Honesty, Integrity and Business ethics into all 
+                  aspects of our business functioning. Contact us today to discuss how we can contribute 
+                  to the success of your projects and operations. Feel free to customize this description 
+                  based on specific details about your company, such as your values, unique offerings, 
+                  and notable projects.
                 </motion.p>
                 <motion.p
                   variants={variants}

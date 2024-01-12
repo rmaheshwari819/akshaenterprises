@@ -1,6 +1,6 @@
 import React from 'react';
 import './PreLoader.css';
-import Logo from '../../assets/gbl/gblcircle.png';
+import Logo from '../../akshalogobg.png';
 
 const Preloader = () => {
   return (

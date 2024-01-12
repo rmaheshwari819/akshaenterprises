@@ -18,43 +18,35 @@ import { motion, useInView } from 'framer-motion';
 const serviceData = [
   {
     image: dairyImage,
-    titles: 'Dairy',
+    titles: 'Tailing Dam',
   },
   {
     image: foodAndDairy,
-    titles: 'Food Industries',
+    titles: 'Industries',
   },
   {
     image: paperMills,
-    titles: 'Paper Mills',
+    titles: 'Mills',
   },
   {
     image: Pharma,
-    titles: 'Pharmaceutikal',
+    titles: 'Glass Production',
   },
   {
     image: sugarMills,
-    titles: 'Sugar and Mills',
+    titles: 'Hindustan Zinc Ltd.',
   },
   {
     image: OilandGas,
     titles: 'Oil and Gas',
   },
   {
-    image: AutoMobile,
-    titles: 'AutoMobile',
-  },
-  {
-    image: SuperMarket,
-    titles: 'SuperMarket',
-  },
-  {
     image: ChemicalIndustries,
-    titles: 'Chemical Industries',
+    titles: 'Power Plant',
   },
   {
     image: CoolingAndHeating,
-    titles: 'Cooling and Heating',
+    titles: 'Mining Industry',
   },
 ];
 const IndustryServe = () => {
@@ -106,8 +98,8 @@ const IndustryServe = () => {
             </motion.h1>
             <motion.p variants={variants} className="mt-3 ">
               We have serve various of industries in India, as well as over
-              world wide recently we have supplied our services to Sugar Mills, Pharmacutical
-              Industry and Water Treatment Plant
+              world wide recently we have supplied our services to HZL, Vedanta industries of soap stone, chemical, 
+              zinc, lead and silver production.
             </motion.p>
           </motion.div>
           <motion.div className="col-lg-8 col-12 ">

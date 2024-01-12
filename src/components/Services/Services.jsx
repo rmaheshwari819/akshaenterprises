@@ -14,9 +14,9 @@ import { motion, useInView } from 'framer-motion';
 const serviceData = [
   {
     icon: customManufacturing,
-    heading: 'Custom Manufacturing Products',
+    heading: 'Custom Services Offered',
     subheading:
-      'We manufactures products according to customer&apos;s demand and needs as per their requirements ',
+      'We provide services according to customers demand and needs as per their requirements ',
   },
   {
     icon: qualityAssurance,

@@ -6,7 +6,7 @@ const BoldFastners = () => {
   const post = {
     title: 'Bold / Fastners',
     metaDescription:
-      'Parmeshwar Steel - Manufacturer of Stainless Steel Pipes, Carbon Steel Pipe Fittings & Stainless Steel Flanges from Mumbai, Maharashtra, India.',
+      'Aksha Enterprises - Manufacturer of Stainless Steel Pipes, Carbon Steel Pipe Fittings & Stainless Steel Flanges from Mumbai, Maharashtra, India.',
     imageSection: BoltsImage,
     h1: 'Bold / Fastners',
     aboutSection: {

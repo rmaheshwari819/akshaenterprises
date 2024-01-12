@@ -12,32 +12,32 @@ import { Link } from 'react-router-dom';
 const address = [
   {
     icons: <LiaPhoneVolumeSolid size={60} color="blue" />,
-    personInfo: '+91 9784098800',
-    contact: 'tel:9784098800',
-    namesperson: '(Rohit Maheshwari)',
+    personInfo: '+91 9413287742',
+    contact: 'tel:9413287742',
+    namesperson: '(Sachin Qureshi)',
   },
   {
     icons: <TfiEmail size={60} color="blue" />,
-    personInfo: 'eakshaenterprises1@gmail.com',
-    contact: 'mailto:eakshaenterprises1@gmail.com',
+    personInfo: 'sachin@akshaenterprises.com',
+    contact: 'mailto:sachin@akshaenterprises.com',
     namesperson: 'Email',
   },
   {
     icons: <VscDebugStepInto size={60} color="blue" />,
     namesperson: 'GSTIN',
-    personInfo: '27FDEPP1007A1Z4',
+    personInfo: '08AAKPQ6484E1Z9',
   },
   {
     icons: <SlLocationPin size={60} color="blue" />,
     name: 'Office Address',
     subpara:
-      'Shop No. 16, Pratap Pura Market, Zawar Mines - 313901, Udaipur (Raj.)',
+    'Naya Bazar ( New Market), Zawar Mines - 313901, Udaipur (Raj.)',
   },
   {
     icons: <SlLocationPin size={60} color="blue" />,
     name: 'Home Address',
     subpara:
-      '32, Nakoda Complex Hiran Magri Sector 4, Udaipur (Raj.) - 313002',
+    '1D, Mahavir Nagar, Sector 14, Hiran Magri, Udaipur, Gordhan Vilas Rural, Rajasthan 313001',
   },
 ];
 
@@ -96,10 +96,10 @@ const Contact = () => {
   return (
     <Layout>
       <Helmet>
-        <title>{headline} - Parmeshwar Steel Center</title>
+        <title>{headline} - Aksha Enterprises</title>
         <meta
           name="description"
-          content="Parmeshwar Steel - Manufacturer of Stainless Steel Pipes, Carbon Steel Pipe Fittings & Stainless Steel Flanges from Mumbai, Maharashtra, India."
+          content="Aksha Enterprises - Manufacturer of Stainless Steel Pipes, Carbon Steel Pipe Fittings & Stainless Steel Flanges from Mumbai, Maharashtra, India."
         />
         <meta
           name="keywords"

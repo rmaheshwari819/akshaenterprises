@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import QualityCheck from '../../assets/qualityCheck.jpg';
 import Layout from '../../components/Layout/Layout';
 import { Helmet } from 'react-helmet';
-const headline = 'Quality';
+const headline = 'Works';
 
 const Quality = () => {
   const textVariants = {
@@ -57,10 +57,10 @@ const Quality = () => {
   return (
     <Layout>
       <Helmet>
-        <title>{headline} - Parmeshwar Steel Center</title>
+        <title>{headline} - Aksha Enterprises</title>
         <meta
           name="description"
-          content="Parmeshwar Steel - Manufacturer of Stainless Steel Pipes, Carbon Steel Pipe Fittings & Stainless Steel Flanges from Mumbai, Maharashtra, India."
+          content="Aksha Enterprises - Manufacturer of Stainless Steel Pipes, Carbon Steel Pipe Fittings & Stainless Steel Flanges from Mumbai, Maharashtra, India."
         />
         <meta
           name="keywords"

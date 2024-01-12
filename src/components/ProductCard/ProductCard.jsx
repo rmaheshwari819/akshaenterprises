@@ -1,42 +1,37 @@
 import React, { useRef } from 'react';
-import ImageOne from '../../assets/img1.jpg';
-import ImageTwo from '../../assets/img2.jpg';
-import ImageThree from '../../assets/img3.jpg';
-import ImageFor from '../../assets/img4.jpg';
-import AngleChannel from '../../assets/angleMain.jpg';
-import Bars from '../../assets/bars.jpg';
-import ImageEight from '../../assets/img8.jpg';
-import ImageTen from '../../assets/img10.jpg';
-import RodsProduct from '../../assets/steelrods.jpg';
+import ImageOne from '../../assets/gbl/civilconst.jpg';
+import ImageTwo from '../../assets/gbl/structural-steel-fabrication.jpg';
+import ImageThree from '../../assets/gbl/manpower.jpeg';
+import ImageFor from '../../assets/gbl/earthmover.png';
+import AngleChannel from '../../assets/gbl/crane.webp';
+import Bars from '../../assets/gbl/o&m.jpeg';
+import ImageEight from '../../assets/gbl/electric.jpeg';
+import ImageTen from '../../assets/gbl/transport3.webp';
+import RodsProduct from '../../assets/gbl/renovation.webp';
 
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { motion, useInView } from 'framer-motion';
 
 const productData = [
   {
     link: '/fittings-manufacturer-in-india',
-    name: 'Civil Construction',
+    name: 'Civil Construction & Renovation',
     img: ImageOne,
   },
   {
     link: '/flanges-manufacturer-in-india',
-    name: 'Fabrication',
-    img: ImageThree,
-  },
-  {
-    link: '/pipes-manufacturer-in-india',
-    name: 'Manpower Supply',
+    name: 'Fabrication & Mechanical Job',
     img: ImageTwo,
   },
   {
-    link: '/bold-fastners-manufacturer-in-india',
-    name: 'Earthmovers',
-    img: ImageFor,
+    link: '/pipes-manufacturer-in-india',
+    name: 'Man Power Supply',
+    img: ImageThree,
   },
   {
-    link: '/angle-channels-manufacturer-in-india',
-    name: 'Crane Supply',
-    img: AngleChannel,
+    link: '/bold-fastners-manufacturer-in-india',
+    name: 'Earthmovers & Crane Supply',
+    img: ImageFor,
   },
   {
     link: '/steets-plates-manufacturer-in-india',
@@ -44,22 +39,27 @@ const productData = [
     img: ImageEight,
   },
   {
-    link: '/bars-wires-manufacturer-in-india',
-    name: 'O & M',
-    img: Bars,
+    link: '/angle-channels-manufacturer-in-india',
+    name: 'Structure & Equipment Erection',
+    img: AngleChannel,
   },
   {
     link: '/percentage-alloys-manufacturer-in-india',
-    name: 'Renovation',
+    name: 'Transportation',
     img: ImageTen,
   },
   {
+    link: '/bars-wires-manufacturer-in-india',
+    name: 'Operation & Maintenance',
+    img: Bars,
+  },
+  {
     link: '/rods-manufacturer-in-india',
-    name: 'Mechanical',
+    name: 'Dismantling & Warehousing',
     img: RodsProduct,
   },
 ];
-const ProductCardHeader = 'Global Corp Expertise';
+const ProductCardHeader = 'Aksha Performing Areas';
 const ProductCard = () => {
   const textVariants = {
     initial: {
@@ -105,7 +105,7 @@ const ProductCard = () => {
           variants={textVariants}
           initial="initial"
           animate="animate"
-          className=" fw-bold underline-for-heading d-inline"
+          className="fw-bold underline-for-heading d-inline"
         >
           {ProductCardHeader}
         </motion.h1>
@@ -120,21 +120,21 @@ const ProductCard = () => {
               ref={ref}
               animate={isInView && 'animate'}
               key={index}
-              className="grid-item shadow "
+              className="grid-item shadow"
               style={{ backgroundColor: '#Fafafa' }}
             >
               <motion.div className="">
                 <img src={item.img} alt="product-img" className="imgWidth " />
               </motion.div>
-              <h1 className="mt-lg-2 text-capitalize mt-4">{item.name}</h1>
-              <Link to={item.link}>
+              <h2 className="mt-lg-2 text-capitalize mt-4 text-center">{item.name}</h2>
+              {/* <Link to={item.link}>
                 <button
                   className="mt-2 px-5 py-2 rounded-5 bg-transparent"
                   style={{ fontSize: '18px' }}
                 >
                   Learn More
                 </button>
-              </Link>
+              </Link> */}
             </motion.div>
           );
         })}

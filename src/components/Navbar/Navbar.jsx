@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import Logo from '../../assets/gbl/gblwithoutbg.png';
+import Logo from '../../aksha.png';
 import cross from '../../assets/cross.png';
 import humberg from '../../assets/humberg.png';
 
@@ -38,7 +38,7 @@ const Navbar = () => {
       <nav className={`borderMain ${show}`}>
         <div
           className="px-lg-5 px-3 navbar d-flex justify-content-between m-auto"
-          style={{ height: '100px' }}
+          style={{ height: '120px' }}
         >
           <div className="d-flex">
             <Link
@@ -46,7 +46,7 @@ const Navbar = () => {
               to="/"
               className="navbar-logo"
             >
-              <img src={Logo} alt="" className="img-fluid navbarlogoherer" />
+              <img src={Logo} alt="" className="navbarlogoherer" />
             </Link>
           </div>
           <div className="d-flex">
