@@ -20,16 +20,16 @@ const Footer = () => {
               />
               <div className="">
                 <h6>
-                  <SlLocationPin size={20} className="me-1 " /> Office Address
+                  <SlLocationPin size={20} className="me-1 " /> Site Office Address
                   :-
                 </h6>
                 <p className="ms-4 px-1 ">
-                  Naya Bazar ( New Market), Zawar Mines - 313901, Udaipur (Raj.)
+                 7, New Market, Zawar Mines - 313901, Udaipur (Raj.)
                 </p>
               </div>
               <div className="">
                 <h6>
-                  <SlLocationPin size={20} className="me-1 " /> Home Address
+                  <SlLocationPin size={20} className="me-1 " /> Office Address
                   :-
                 </h6>
                 <p className="ms-4 px-1 ">
@@ -51,10 +51,12 @@ const Footer = () => {
                 <ul className="list-unstyled">
                   <li>
                     <Link
-                      to="mailto:eakshaenterprises@gmail.com"
+                      to="mailto:sachin.aksha100@gmail.com"
                       className="link-tagfooter"
                     >
-                      <FiMail size={20} className="me-1" /> sachin@akshaenterprises.com
+                      <FiMail size={20} className="me-1" /> sachin.aksha100@gmail.com
+                      {/* <br></br>
+                      <span className='ms-4 me-1'/> sachin@akshaenterprises.com */}
                     </Link>
                   </li>
                 </ul>

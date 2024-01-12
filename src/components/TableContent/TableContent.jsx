@@ -6,36 +6,18 @@ const dataone = [
   { cities: 'Zawar' },
   { cities: 'Dariba' },
   { cities: 'Chanderiya' },
-  { cities: 'Agucha' },
-  { cities: 'Kayad' },
-  { cities: 'Devpura' },
+  { cities: 'Rampura Agucha' },
+  { cities: 'Kayad Ajmer' },
+  { cities: 'Jamar Kotra' },
 ];
 
 const datatwo = [
   { cities: 'Udaipur' },
   { cities: 'Rajsamand' },
   { cities: 'Chittorgarh' },
-  { cities: 'Gulabpura' },
-  { cities: 'Bhilwara' },
-  { cities: 'Ajmer' },
-];
-
-const datathree = [
-  { cities: 'Bijayanagar' },
-  { cities: 'Jamar Khotra' },
-  { cities: 'Bhalariya' },
-  { cities: 'Debari' },
-  { cities: 'Dakan Kotra' },
-  { cities: 'Baroi' },
-];
-
-const datafour = [
-  { cities: 'Dakan Khotra' },
-  { cities: 'Rampura' },
   { cities: 'SK Mines' },
-  { cities: 'Zawar Mala' },
-  { cities: 'Mochia' },
-  { cities: 'Balarai' },
+  { cities: 'Debari' },
+  { cities: 'Zawar all sites' },
 ];
 
 const tableContentPara =
@@ -117,16 +99,6 @@ const TableContent = () => {
             </tr>
             <tr>
               {datatwo.map((item) => (
-                <td>{item.cities}</td>
-              ))}
-            </tr>
-            <tr>
-              {datathree.map((item) => (
-                <td>{item.cities}</td>
-              ))}
-            </tr>
-            <tr>
-              {datafour.map((item) => (
                 <td>{item.cities}</td>
               ))}
             </tr>

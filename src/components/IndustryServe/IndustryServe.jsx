@@ -1,11 +1,8 @@
 import React, { useRef } from 'react';
 import { BsArrowLeft, BsArrowRight } from 'react-icons/bs';
 import dairyImage from '../../assets/dairyImage.jpg';
-import foodAndDairy from '../../assets/food &dairy insutry.jpeg';
 import paperMills from '../../assets/paper mills.jpg';
-import Pharma from '../../assets/pharmaceutikal.jpg';
 import sugarMills from '../../assets/sugar mills.jpg';
-import OilandGas from '../../assets/oilandgas.jpg';
 import ChemicalIndustries from '../../assets/chemicalsIndustries.jpg';
 import CoolingAndHeating from '../../assets/cooling & heating industries.jpg';
 import 'slick-carousel/slick/slick.css';
@@ -19,24 +16,12 @@ const serviceData = [
     titles: 'Tailing Dam',
   },
   {
-    image: foodAndDairy,
-    titles: 'Industries',
-  },
-  {
     image: paperMills,
     titles: 'Mills',
   },
   {
-    image: Pharma,
-    titles: 'Glass Production',
-  },
-  {
     image: sugarMills,
     titles: 'Hindustan Zinc Ltd.',
-  },
-  {
-    image: OilandGas,
-    titles: 'Oil and Gas',
   },
   {
     image: ChemicalIndustries,

@@ -18,8 +18,8 @@ const address = [
   },
   {
     icons: <TfiEmail size={60} color="blue" />,
-    personInfo: 'sachin@akshaenterprises.com',
-    contact: 'mailto:sachin@akshaenterprises.com',
+    personInfo: 'sachin.aksha100@gmail.com',
+    contact: 'mailto:sachin.aksha100@gmail.com',
     namesperson: 'Email',
   },
   {
@@ -29,13 +29,13 @@ const address = [
   },
   {
     icons: <SlLocationPin size={60} color="blue" />,
-    name: 'Office Address',
+    name: 'Site Office Address',
     subpara:
-    'Naya Bazar ( New Market), Zawar Mines - 313901, Udaipur (Raj.)',
+    '7, New Market, Zawar Mines - 313901, Udaipur (Raj.)',
   },
   {
     icons: <SlLocationPin size={60} color="blue" />,
-    name: 'Home Address',
+    name: 'Office Address',
     subpara:
     '1D, Mahavir Nagar, Sector 14, Hiran Magri, Udaipur, Gordhan Vilas Rural, Rajasthan 313001',
   },

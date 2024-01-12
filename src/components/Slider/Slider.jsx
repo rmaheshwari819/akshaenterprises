@@ -2,13 +2,13 @@ import React from 'react';
 import Diamond from '../../assets/gbl/hzl.png';
 import Nation from '../../assets/gbl/hzl-vedenta.jpeg';
 import Sumitomo from '../../assets/gbl/vedanta.png';
-import Welspon from '../../assets/welspon.jpg';
-import VBeverages from '../../assets/varun.png';
-import Bajaj from '../../assets/bajaj.JPG';
-import ShivanAutoTech from '../../assets/shivam autotech.jpg';
-import BKT from '../../assets/bkt.png';
-import JBMGroup from '../../assets/jbm group.png';
-import Hydrobenjg from '../../assets/hydrobenj ind pvt ltd.jpg';
+import Welspon from '../../assets/gbl/hzl.png';
+import VBeverages from '../../assets/gbl/hzl-vedenta.jpeg';
+import Bajaj from '../../assets/gbl/vedanta.png';
+import ShivanAutoTech from '../../assets/gbl/hzl-vedenta.jpeg';
+import BKT from '../../assets/gbl/hzl.png';
+import JBMGroup from '../../assets/gbl/hzl-vedenta.jpeg';
+import Hydrobenjg from '../../assets/gbl/vedanta.png';
 import './Slider.css';
 
 const imagesData = [
